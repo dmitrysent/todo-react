@@ -25,10 +25,7 @@ function App() {
       })
   }, []);
 
-
-
-
-  return (
+ return (
     <div className="App">
       <NewTodoForm
         handleClick={addTodo}
